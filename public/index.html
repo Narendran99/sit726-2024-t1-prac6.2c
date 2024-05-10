@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetFunds - Your BF in Finance</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-zzK3C8/hvzVTU7n2izXOoF5AInr7s9oU87Yt9W2v7k0vc6ijGl9tiShbvrD2I0OWclH2yGM4cBp0ZBnuQK3iEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+    body {
+      background-image: url('BG.avif');
+      background-size: cover; 
+      background-position: center center;
+      background-attachment: fixed; 
+    }
+
+        /* Custom CSS */
+        .navbar-nav .nav-link {
+            font-size: 1.2rem; 
+            color: #007bff; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0056b3; 
+        }
+
+        header {
+            text-align: center; 
+            padding: 50px 0; 
+            /*background-color: #f8f9fa;*/ 
+        }
+
+        header h1 {
+            font-size: 3rem; 
+            color: #343a40; 
+        }
+
+        header h2 {
+            font-size: 1.5rem; 
+            color: #6c757d; 
+        }
+
+        /* Social Proof Section Styles */
+        .social-proof {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .average-rating {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .review-image {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .rating-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+
+        .rating-heading {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .rating-content {
+            margin-bottom: 10px;
+        }
+
+        .rating-user {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="budgetfunds.png" alt="BudgetFunds Logo" style="max-height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>BudgetFunds</h1>
+        <h2>Your BF in Finance</h2>
+    </header>
+    <section class="benefits py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mb-4 text-center">Take control of your finances with BudgetFunds</h3>
+                    <p class="lead mb-4 text-center">Track expenses, set budgets, and reach your financial goals effortlessly. Simplify your financial life today.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Effortless Budgeting: Easily track your spending and categorize expenses in one place.</li>
+                        <li class="list-group-item">Smart Insights: Gain valuable insights into your spending habits and identify areas for improvement.</li>
+                        <li class="list-group-item">Goal Setting: Set achievable financial goals and stay motivated with progress tracking features.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">User-Friendly Interface: Intuitive design and simple navigation make managing your finances a breeze.</li>
+                        <li class="list-group-item">Secure and Private: Rest easy knowing your financial data is protected with state-of-the-art security measures.</li>
+                        <li class="list-group-item">24/7 Support: Access dedicated customer support whenever you need assistance on your financial journey.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta bg-light py-4">
+        <div class="container text-center">
+            <button class="btn btn-primary btn-lg">Start your journey to financial freedom now!</button>
+        </div>
+    </section>
+    <section class="social-proof">
+        <div class="container">
+            <h3>Join over 1 million BudgetFunds Users</h3>
+            <div class="average-rating">4.5/5</div>
+            <img src=".png" alt="Rating Image" class="review-image">
+            <p>Based on 5000+ reviews</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="rating-card">
+                        <div class="rating-heading">Great App!</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="rating-content">"Card content"</div>
+                        <div class="rating-user">- John Doe</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rating-card">
+                        <div class="rating-heading">Fantastic Features!</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="rating-content">"Card content"</div>
+                        <div class="rating-user">- Jane Smith</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rating-card">
+                        <div class="rating-heading">Very Useful</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="rating-content">"Card content"</div>
+                        <div class="rating-user">- David Johnson</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">Contact us: abc@budgetfunds.com</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
